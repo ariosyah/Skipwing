@@ -20,7 +20,7 @@ struct MainMenu: View {
                     
             VStack{
                 
-                Text("Jump The Rope")
+                Text("SKIPWING")
                     .font(.custom("Fredoka-Bold", size: 43))
                     .foregroundColor(.white)
                     .padding(.vertical, 200)
