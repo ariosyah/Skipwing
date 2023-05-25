@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CCAC652A1FC148008B5ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC4F2A1FC148008B5ADA /* Preview Assets.xcassets */; };
+		05CCAC662A1FC148008B5ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCAC512A1FC148008B5ADA /* ViewController.swift */; };
+		05CCAC672A1FC148008B5ADA /* SkipwingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCAC522A1FC148008B5ADA /* SkipwingApp.swift */; };
+		05CCAC682A1FC148008B5ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCAC532A1FC148008B5ADA /* ContentView.swift */; };
+		05CCAC692A1FC148008B5ADA /* MainMenu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC552A1FC148008B5ADA /* MainMenu.mp3 */; };
+		05CCAC6A2A1FC148008B5ADA /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC562A1FC148008B5ADA /* GameOver.mp3 */; };
+		05CCAC6B2A1FC148008B5ADA /* JumpSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC572A1FC148008B5ADA /* JumpSound.mp3 */; };
+		05CCAC6C2A1FC148008B5ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC582A1FC148008B5ADA /* Assets.xcassets */; };
+		05CCAC6D2A1FC148008B5ADA /* Fredoka-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC5A2A1FC148008B5ADA /* Fredoka-Medium.ttf */; };
+		05CCAC6E2A1FC148008B5ADA /* Fredoka-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC5B2A1FC148008B5ADA /* Fredoka-Light.ttf */; };
+		05CCAC6F2A1FC148008B5ADA /* Fredoka-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC5C2A1FC148008B5ADA /* Fredoka-Bold.ttf */; };
+		05CCAC702A1FC148008B5ADA /* Fredoka-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC5D2A1FC148008B5ADA /* Fredoka-Regular.ttf */; };
+		05CCAC712A1FC148008B5ADA /* Fredoka-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC5E2A1FC148008B5ADA /* Fredoka-SemiBold.ttf */; };
+		05CCAC722A1FC148008B5ADA /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCAC602A1FC148008B5ADA /* MainMenu.swift */; };
+		05CCAC732A1FC148008B5ADA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCAC612A1FC148008B5ADA /* GameView.swift */; };
+		05CCAC742A1FC148008B5ADA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 05CCAC622A1FC148008B5ADA /* GameScene.sks */; };
+		05CCAC752A1FC148008B5ADA /* SoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCAC642A1FC148008B5ADA /* SoundController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05CCAC3D2A1FC12B008B5ADA /* Skipwing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skipwing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CCAC4F2A1FC148008B5ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05CCAC512A1FC148008B5ADA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05CCAC522A1FC148008B5ADA /* SkipwingApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkipwingApp.swift; sourceTree = "<group>"; };
+		05CCAC532A1FC148008B5ADA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05CCAC552A1FC148008B5ADA /* MainMenu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MainMenu.mp3; sourceTree = "<group>"; };
+		05CCAC562A1FC148008B5ADA /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+		05CCAC572A1FC148008B5ADA /* JumpSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JumpSound.mp3; sourceTree = "<group>"; };
+		05CCAC582A1FC148008B5ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05CCAC5A2A1FC148008B5ADA /* Fredoka-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Medium.ttf"; sourceTree = "<group>"; };
+		05CCAC5B2A1FC148008B5ADA /* Fredoka-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Light.ttf"; sourceTree = "<group>"; };
+		05CCAC5C2A1FC148008B5ADA /* Fredoka-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Bold.ttf"; sourceTree = "<group>"; };
+		05CCAC5D2A1FC148008B5ADA /* Fredoka-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Regular.ttf"; sourceTree = "<group>"; };
+		05CCAC5E2A1FC148008B5ADA /* Fredoka-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-SemiBold.ttf"; sourceTree = "<group>"; };
+		05CCAC602A1FC148008B5ADA /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		05CCAC612A1FC148008B5ADA /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		05CCAC622A1FC148008B5ADA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		05CCAC642A1FC148008B5ADA /* SoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05CCAC3A2A1FC12B008B5ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CCAC342A1FC12B008B5ADA = {
+			isa = PBXGroup;
+			children = (
+				05CCAC3F2A1FC12B008B5ADA /* Skipwing */,
+				05CCAC3E2A1FC12B008B5ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05CCAC3E2A1FC12B008B5ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05CCAC3D2A1FC12B008B5ADA /* Skipwing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05CCAC3F2A1FC12B008B5ADA /* Skipwing */ = {
+			isa = PBXGroup;
+			children = (
+				05CCAC582A1FC148008B5ADA /* Assets.xcassets */,
+				05CCAC592A1FC148008B5ADA /* Fonts */,
+				05CCAC632A1FC148008B5ADA /* Helper */,
+				05CCAC4E2A1FC148008B5ADA /* Preview Content */,
+				05CCAC542A1FC148008B5ADA /* Sounds */,
+				05CCAC5F2A1FC148008B5ADA /* View */,
+				05CCAC502A1FC148008B5ADA /* ViewModel */,
+			);
+			path = Skipwing;
+			sourceTree = "<group>";
+		};
+		05CCAC4E2A1FC148008B5ADA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05CCAC4F2A1FC148008B5ADA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05CCAC502A1FC148008B5ADA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				05CCAC512A1FC148008B5ADA /* ViewController.swift */,
+				05CCAC522A1FC148008B5ADA /* SkipwingApp.swift */,
+				05CCAC532A1FC148008B5ADA /* ContentView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		05CCAC542A1FC148008B5ADA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				05CCAC552A1FC148008B5ADA /* MainMenu.mp3 */,
+				05CCAC562A1FC148008B5ADA /* GameOver.mp3 */,
+				05CCAC572A1FC148008B5ADA /* JumpSound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		05CCAC592A1FC148008B5ADA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				05CCAC5A2A1FC148008B5ADA /* Fredoka-Medium.ttf */,
+				05CCAC5B2A1FC148008B5ADA /* Fredoka-Light.ttf */,
+				05CCAC5C2A1FC148008B5ADA /* Fredoka-Bold.ttf */,
+				05CCAC5D2A1FC148008B5ADA /* Fredoka-Regular.ttf */,
+				05CCAC5E2A1FC148008B5ADA /* Fredoka-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		05CCAC5F2A1FC148008B5ADA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05CCAC602A1FC148008B5ADA /* MainMenu.swift */,
+				05CCAC612A1FC148008B5ADA /* GameView.swift */,
+				05CCAC622A1FC148008B5ADA /* GameScene.sks */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05CCAC632A1FC148008B5ADA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				05CCAC642A1FC148008B5ADA /* SoundController.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05CCAC3C2A1FC12B008B5ADA /* Skipwing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CCAC4B2A1FC12C008B5ADA /* Build configuration list for PBXNativeTarget "Skipwing" */;
+			buildPhases = (
+				05CCAC392A1FC12B008B5ADA /* Sources */,
+				05CCAC3A2A1FC12B008B5ADA /* Frameworks */,
+				05CCAC3B2A1FC12B008B5ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skipwing;
+			productName = Skipwing;
+			productReference = 05CCAC3D2A1FC12B008B5ADA /* Skipwing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05CCAC352A1FC12B008B5ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					05CCAC3C2A1FC12B008B5ADA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 05CCAC382A1FC12B008B5ADA /* Build configuration list for PBXProject "Skipwing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05CCAC342A1FC12B008B5ADA;
+			productRefGroup = 05CCAC3E2A1FC12B008B5ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05CCAC3C2A1FC12B008B5ADA /* Skipwing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05CCAC3B2A1FC12B008B5ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CCAC6B2A1FC148008B5ADA /* JumpSound.mp3 in Resources */,
+				05CCAC692A1FC148008B5ADA /* MainMenu.mp3 in Resources */,
+				05CCAC6A2A1FC148008B5ADA /* GameOver.mp3 in Resources */,
+				05CCAC742A1FC148008B5ADA /* GameScene.sks in Resources */,
+				05CCAC652A1FC148008B5ADA /* Preview Assets.xcassets in Resources */,
+				05CCAC6D2A1FC148008B5ADA /* Fredoka-Medium.ttf in Resources */,
+				05CCAC6C2A1FC148008B5ADA /* Assets.xcassets in Resources */,
+				05CCAC712A1FC148008B5ADA /* Fredoka-SemiBold.ttf in Resources */,
+				05CCAC6F2A1FC148008B5ADA /* Fredoka-Bold.ttf in Resources */,
+				05CCAC702A1FC148008B5ADA /* Fredoka-Regular.ttf in Resources */,
+				05CCAC6E2A1FC148008B5ADA /* Fredoka-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05CCAC392A1FC12B008B5ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CCAC722A1FC148008B5ADA /* MainMenu.swift in Sources */,
+				05CCAC662A1FC148008B5ADA /* ViewController.swift in Sources */,
+				05CCAC672A1FC148008B5ADA /* SkipwingApp.swift in Sources */,
+				05CCAC682A1FC148008B5ADA /* ContentView.swift in Sources */,
+				05CCAC752A1FC148008B5ADA /* SoundController.swift in Sources */,
+				05CCAC732A1FC148008B5ADA /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05CCAC492A1FC12C008B5ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05CCAC4A2A1FC12C008B5ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05CCAC4C2A1FC12C008B5ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Skipwing/Preview Content\"";
+				DEVELOPMENT_TEAM = 45ZWLX2CYQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ariosyahputra.Skipwing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05CCAC4D2A1FC12C008B5ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Skipwing/Preview Content\"";
+				DEVELOPMENT_TEAM = 45ZWLX2CYQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ariosyahputra.Skipwing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05CCAC382A1FC12B008B5ADA /* Build configuration list for PBXProject "Skipwing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CCAC492A1FC12C008B5ADA /* Debug */,
+				05CCAC4A2A1FC12C008B5ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CCAC4B2A1FC12C008B5ADA /* Build configuration list for PBXNativeTarget "Skipwing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CCAC4C2A1FC12C008B5ADA /* Debug */,
+				05CCAC4D2A1FC12C008B5ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05CCAC352A1FC12B008B5ADA /* Project object */;
+}
