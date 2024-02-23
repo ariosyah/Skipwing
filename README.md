@@ -16,6 +16,6 @@ Swift 5.0
 No additional configuration is required for this project.
 
 ## Documentation
-<img src="https://miro.medium.com/v2/resize:fit:444/format:webp/1*fJV4R9IfktAE3nP5ETeDbg.gif"/>
+<img src="https://miro.medium.com/v2/resize:fit:444/format:webp/1*fJV4R9IfktAE3nP5ETeDbg.gif" width="542"/>
 Read full documentation journey here:
 [Medium](https://medium.com/@ariosyh/a-journey-of-innovation-and-learning-how-i-created-my-first-games-with-apple-technologies-28f05e735aa7)
