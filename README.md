@@ -1,7 +1,7 @@
 # Skipwing
 [![Swift Version](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
 
-![Preview](https://miro.medium.com/v2/resize:fit:444/format:webp/1*fJV4R9IfktAE3nP5ETeDbg.gif)
+![Preview](https://github.com/ariosyahputra/Skipwing/assets/64845600/2d7c1e4b-11ce-4416-9f43-ec8e5c01e20d)
 
 Skipwing is a revolutionary take on the timeless game of jumping rope, reinvented for the digital realm.
 
